@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Single Day', cursive;
+    font-weight: lighter;
+}
+
+body {
+    background-image: url(./image/papel_parede.jpg);
+}
+
+header {
+    font-family: 'Single Day', cursive;
+    font-weight: bold;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    font-family: 'Single Day', cursive;
+    font-weight: 100;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+form button {
+    margin-left: 16px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}

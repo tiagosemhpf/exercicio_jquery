@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>lista de taferas</h1>
+    </header>
+    <form id="form-tarefa">
+        <h2>Inserir nova tarefa abaixo:</h2>
+        <input type="text" id="nova-tarefa" required placeholder="Nome da tafera">
+        <button type="submit">Salvar nova tarefa</button>
+    </form>
+    <div class="container">
+        <ol id="lista-tarefa"></ol>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
